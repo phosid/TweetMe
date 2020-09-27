@@ -1,8 +1,6 @@
-# Project 3 - *Name of App Here*
+# TweetMe
 
-**Name of your app** is a basic twitter app to read your tweets.
-
-Time spent: **X** hours spent in total
+**TweetMe** is a basic version of the Twitter app that reads your tweets.
 
 ## User Stories
 
