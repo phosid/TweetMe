@@ -1,6 +1,6 @@
 # TweetMe
 
-**TweetMe** is a basic version of the Twitter app that reads your tweets.
+**TweetMe** is a basic version of the Twitter app that gets your tweets and allows you to post tweets as well.
 
 ## User Stories
 
