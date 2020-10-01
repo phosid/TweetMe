@@ -13,15 +13,23 @@ class HomeTableViewController: UITableViewController {
     
     var tweetArray = [NSDictionary]()
     var numberOfTweets: Int!
-    
     let myRefreshControl = UIRefreshControl()
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         loadTweets()
         
         myRefreshControl.addTarget(self, action: #selector(loadTweets), for: .valueChanged)
         tableView.refreshControl = myRefreshControl
+        self.tableView.rowHeight = UITableView.automaticDimension
+        self.tableView.estimatedRowHeight = 150
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        loadTweets()
     }
     
     @objc func loadTweets() {
@@ -46,8 +54,7 @@ class HomeTableViewController: UITableViewController {
         })
     }
     
-    
-    
+
     func loadMoreTweets() {
         
         let myURL = "https://api.twitter.com/1.1/statuses/home_timeline.json"
@@ -84,7 +91,6 @@ class HomeTableViewController: UITableViewController {
         
         cell.userNameLabel.text = userName as? String
         cell.tweetContent.text = tweetArray[indexPath.row]["text"] as? String
-        
         let imageURL = URL(string: ((user["profile_image_url_https"] as? String)!))
         let data = try? Data(contentsOf: imageURL!)
         
@@ -94,6 +100,28 @@ class HomeTableViewController: UITableViewController {
         
         return cell
     }
+    
+//    func getRelativeTime(timeString: String) -> String {
+//        let time: Date
+//        let dateFormatter = DateFormatter()
+//        dateFormatter.dateFormat = "EEE MMM d HH:mm:ss Z y"
+//        time = dateFormatter.date(from: timeString)!
+//        return time.timeAgoDisplay()
+//    }
+//
+//    extension Date {
+//        func timeAgoDisplay() -> String {
+//            let secondsAgo = Int(Date().timeIntervalSince(self)
+//            let minute = 60
+//            let hour = 60 * minute
+//            let day = 24 * hour
+//            let week = 7 * day
+//            if secondsAgo < minute {
+//
+//            }
+//        }
+//    }
+    
 
 
     override func numberOfSections(in tableView: UITableView) -> Int {
