@@ -4,7 +4,7 @@
 
 # Twitter - Part II
 
-This is a basic twitter app to view, compose, favorite, and retweet tweets.
+This is a basic Twitter app to view, compose, favorite, and retweet tweets.
 
 Time spent: **X** hours spent in total
 
@@ -26,7 +26,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## User Stories
 
