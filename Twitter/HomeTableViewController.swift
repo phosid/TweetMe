@@ -25,6 +25,7 @@ class HomeTableViewController: UITableViewController {
         tableView.refreshControl = myRefreshControl
         self.tableView.rowHeight = UITableView.automaticDimension
         self.tableView.estimatedRowHeight = 150
+        self.tableView.separatorColor = UIColor.lightGray
     }
     
     override func viewDidAppear(_ animated: Bool) {
