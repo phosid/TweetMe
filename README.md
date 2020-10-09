@@ -1,12 +1,8 @@
 # TweetMe
 
-**TweetMe** is a basic version of the Twitter app that gets your tweets and allows you to post tweets as well.
+**TweetMe** is a basic version of the Twitter app to view, compose, favorite, and retweet tweets.
 
-# Twitter - Part II
-
-This is a basic Twitter app to view, compose, favorite, and retweet tweets.
-
-Time spent: **X** hours spent in total
+Time spent: **20** hours spent in total
 
 ## User Stories
 
@@ -18,15 +14,10 @@ The following **required** functionality is completed:
 
 The following **bonus** features are implemented:
 
-- [ ] When composing a tweet, user sees a countdown for the number of characters remaining for the tweet (out of 280) (2pts)
+- [x] When composing a tweet, user sees a countdown for the number of characters remaining for the tweet (out of 280) (2pts)
 - [ ] User can view their profile in a profile tab. (3pts)
 - [ ] User sees embedded images in tweet if available. (3pts)
 
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## User Stories
 
