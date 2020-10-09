@@ -4,7 +4,7 @@
 
 Time spent: **20** hours spent in total
 
-## User Stories
+## User Stories (part 2)
 
 The following **required** functionality is completed:
 
@@ -19,7 +19,7 @@ The following **bonus** features are implemented:
 - [ ] User sees embedded images in tweet if available. (3pts)
 
 
-## User Stories
+## User Stories (part 1)
 
 The following **required** functionality is completed:
 
