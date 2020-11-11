@@ -19,8 +19,8 @@ The following **bonus** features are implemented:
 - [ ] User sees embedded images in tweet if available. (3pts)
 
 
-<img src='http://g.recordit.co/7ENU8Nw8PL.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-<img src='http://g.recordit.co/JdeDUkch1n.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/7ENU8Nw8PL.gif' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/JdeDUkch1n.gif' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
 
 
 ## User Stories (part 1)
